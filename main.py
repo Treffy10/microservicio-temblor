@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Microservicio de Proyección de Temblor activo"}
 
 # Endpoint para obtener la proyección de temblor según ciudad y fecha
 @app.get("/proyeccion_temblor")
